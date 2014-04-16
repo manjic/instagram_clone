@@ -25,7 +25,7 @@ describe 'posts index page' do
         visit '/posts/new'
         click_button 'Create Post'
 
-        expect(page).to have_content 'errors'
+        expect(page).to have_content 'error'
       end
     end
   end
