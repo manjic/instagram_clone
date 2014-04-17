@@ -33,6 +33,13 @@ end
 
 gem "paperclip", '~> 4.1' #github: 'thoughtbot/paperclip'#{}"~> 4.1"
 gem 'aws-sdk'
+gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
+
+
+group :production  do
+	gem 'rails_12factor'
+end
+
 
 
 # Use ActiveModel has_secure_password
