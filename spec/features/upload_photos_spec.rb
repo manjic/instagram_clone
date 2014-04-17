@@ -4,7 +4,7 @@ describe 'Uploading photos' do
 
 	it 'displays the image on the post page' do
 		visit '/posts/new'
-		fill_in 'Description', with: 'My holiday pic'
+		fill_in 'Description', with:'My holiday pic'
 		attach_file 'Picture', Rails.root.join('spec/images/Eric_cartman.jpg')
 		click_button "Create Post"
 		

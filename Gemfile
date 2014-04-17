@@ -31,7 +31,9 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
-gem "paperclip", '~> 3' #github: 'thoughtbot/paperclip'#{}"~> 4.1"
+gem "paperclip", '~> 4.1' #github: 'thoughtbot/paperclip'#{}"~> 4.1"
+gem 'aws-sdk'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
